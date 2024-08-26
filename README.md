@@ -18,6 +18,7 @@ TODO:
 - Custom icons (Not ripped from V Rising assets)
 - Player selector that scales better with more players.
 
+Screenshots:
 
 ![screenshot without toggle](screenshots/screenshot1.png)
 Picture of site with me hovering over one expertise.
