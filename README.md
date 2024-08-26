@@ -7,6 +7,7 @@ This mod is just my project to make my and my friend's playthrough more enjoyabl
 Feel free to use this project in your own servers and make improvements and pull requests.
 
 Currently this works by putting all the files in a folder on a dedicated server to "VRisingServer" folder. It needs a server for the JavaScript to handle the data reading.
+This project allso needs player_experience.json file to have all the players listed.
 
 Current funtionality:
 - Show levels and total experience of professions
