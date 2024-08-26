@@ -16,4 +16,12 @@ TODO:
 - Custom icons (Not ripped from V Rising assets)
 - Player selector that scales better with more players.
 
+
+![screenshot without toggle](screenshots/screenshot1.png)
+Picture of site with me hovering over one expertise.
+
+![screenshot of toggle](screenshots/screenshot2.png)
+Picture of toggling all stats.
+
+
 All the icons belongs to V Rising, This is not a product for sale, but my own little project to make my own life easier.
