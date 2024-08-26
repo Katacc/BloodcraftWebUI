@@ -1,0 +1,263 @@
+body {
+    background: url("wallpaper.jpg") #000c0c;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    font-family: Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+p {
+    color: white;
+}
+
+#header {
+    border: 1px solid black;
+    background-color: #000c0c;
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    position: relative;
+    text-align: center;
+    left: 2.5em;
+    top: 0;
+    font-size: 1.5em;
+}
+
+#result {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    flex-wrap: auto;
+    line-height: 0.5;
+    margin-bottom: 25px;
+    height: 97.5dvh;
+}
+
+#footer {
+    bottom: 0;
+    left: 0;
+    display: none;
+}
+
+#buttonsContainer {
+    margin-left: 10px;
+    width: 25em;
+    text-align: center;
+    position: relative;
+    margin-top: 0.3em;
+}
+
+#buttonsContainer button {
+    background-color: #660033;
+    border: 1px solid black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+
+    width: 12.5em;
+    margin-top: 0px;
+}
+
+#buttonsContainer button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+}
+
+#buttonsContainer button:hover {
+    background-color: #99004d;
+}
+
+.stats {
+    font-size: 90%;
+    font-family: Verdana, sans-serif;
+}
+
+#helpBox button {
+    display: block;
+    width: 5em;
+    font-family: Verdana, sans-serif;
+    border-radius: 0px;
+    background-color: 1px solid black;
+    color: white;
+    text-align: center;
+    padding: 15px 32px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    height: 1.5em;
+    position: absolute;
+}
+
+#skills {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+#weapons {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+#helpBox {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-top: 55px;
+    border: 4px solid #717781;
+    height: 6.3em;
+    width: auto;
+    background-color: #000c0c;
+}
+
+#helpBox p {
+    margin-left: 5px;
+}
+
+#bloodLegacies {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.boxed {
+    margin-top: 5px;
+    border: 4px solid #717781;
+    height: auto;
+    width: auto;
+    min-width: 15em;
+    display: flex;
+    flex-direction: row;
+    background-color: #000c0c;
+}
+
+.boxed:hover {
+    cursor: pointer;
+    background-color: #001a1a;
+    border: 4px solid #424b55;
+    box-shadow: 5px 5px #000c0c;
+}
+
+.boxed p {
+    text-align: center;
+}
+
+#png {
+    width: 10%;
+}
+
+#level {
+    display: flex;
+    flex-direction: column;
+}
+
+#text {
+    width: 90%;
+    display: flex;
+    display: row;
+    line-height: 0.01;
+}
+
+#img {
+    width: 48px;
+    margin-top: 0.6em;
+    margin-left: 1px;
+}
+
+#experience {
+    display: none;
+    margin-left: 10px;
+}
+
+#experience p {
+}
+
+#exp:hover #experience {
+    display: block;
+}
+
+#woodcutting:hover #experience {
+    display: block;
+}
+
+#mining:hover #experience {
+    display: block;
+}
+
+#fishing:hover #experience {
+    display: block;
+}
+
+#harvesting:hover #experience {
+    display: block;
+}
+
+#alchemy:hover #experience {
+    display: block;
+}
+
+#blacksmithing:hover #experience {
+    display: block;
+}
+
+#enchanting:hover #experience {
+    display: block;
+}
+
+#tailoring:hover #experience {
+    display: block;
+}
+
+#unarmed:hover #experience {
+    display: block;
+}
+#sword:hover #experience {
+    display: block;
+}
+#greatsword:hover #experience {
+    display: block;
+}
+#axe:hover #experience {
+    display: block;
+}
+#mace:hover #experience {
+    display: block;
+}
+#pistols:hover #experience {
+    display: block;
+}
+#longbow:hover #experience {
+    display: block;
+}
+#crossbow:hover #experience {
+    display: block;
+}
+#whip:hover #experience {
+    display: block;
+}
+#reaper:hover #experience {
+    display: block;
+}
+#slashers:hover #experience {
+    display: block;
+}
+#fishingpole:hover #experience {
+    display: block;
+}
+#spear:hover #experience {
+    display: block;
+}

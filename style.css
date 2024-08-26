@@ -1,0 +1,276 @@
+body {
+    background: url("wallpaper.jpg") #000c0c;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    font-family: Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+p {
+    color: white;
+}
+
+pre {
+    color: white;
+    font-family: Verdana, sans-serif;
+    font-size: 16px;
+    z-index: 1;
+}
+
+#header {
+    border: 1px solid black;
+    background-color: #000c0c;
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    position: relative;
+    text-align: center;
+    left: 2.5em;
+    top: 0;
+    font-size: 1.5em;
+}
+
+#result {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    flex-wrap: auto;
+    line-height: 0.5;
+    margin-bottom: 25px;
+    height: 97.5dvh;
+}
+
+#footer {
+    bottom: 0;
+    left: 0;
+    display: none;
+}
+
+#buttonsContainer {
+    margin-left: 10px;
+    width: 25em;
+    text-align: center;
+    position: relative;
+    margin-top: 0.3em;
+}
+
+#buttonsContainer button {
+    background-color: #660033;
+    border: 1px solid black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+
+    width: 12.5em;
+    margin-top: 0px;
+}
+
+#buttonsContainer button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+}
+
+#buttonsContainer button:hover {
+    background-color: #99004d;
+}
+
+.stats {
+    font-size: 90%;
+    font-family: Verdana, sans-serif;
+    text-align: right;
+    align-items: end;
+}
+
+#skills {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+#weapons {
+    display: flex;
+    flex-direction: column;
+    margin-left: 350px;
+    margin-top: 10px;
+    position: absolute;
+}
+
+#helpBox {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-top: 55px;
+    border: 4px solid #717781;
+    height: 3.2em;
+    width: auto;
+    background-color: #000c0c;
+    visibility: visible;
+    position: absolute;
+    margin-left: 0px;
+    margin-top: 775px;
+}
+
+#helpBox button {
+    background-color: #660033;
+    border: 1px solid black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 0px;
+}
+
+#helpBox p {
+    margin-left: 5px;
+}
+
+#bloodLegacies {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.boxed {
+    margin-top: 5px;
+    border: 4px solid #717781;
+    height: auto;
+    width: auto;
+    min-width: 20em;
+    display: flex;
+    flex-direction: row;
+    background-color: #000c0c;
+    justify-content: space-between;
+}
+
+.boxed:hover {
+    cursor: pointer;
+    background-color: #001a1a;
+    border: 4px solid #424b55;
+    box-shadow: 5px 5px #000c0c;
+}
+
+.boxed p {
+    text-align: center;
+    margin-left: 10px;
+    z-index: 1;
+}
+
+#png {
+    width: 10%;
+    z-index: 0;
+}
+
+#level {
+    display: flex;
+    flex-direction: column;
+}
+
+#text {
+    width: 90%;
+    display: flex;
+    display: row;
+    line-height: 0.01;
+    float: left;
+}
+
+#img {
+    width: 48px;
+    margin-top: 0.6em;
+    margin-left: 1px;
+}
+
+#experience {
+    visibility: hidden;
+    margin-left: 10px;
+}
+
+#exp:hover #experience {
+    visibility: visible !important;
+}
+
+#woodcutting:hover #experience {
+    visibility: visible !important;
+}
+
+#mining:hover #experience {
+    visibility: visible !important;
+}
+
+#fishing:hover #experience {
+    visibility: visible !important;
+}
+
+#harvesting:hover #experience {
+    visibility: visible !important;
+}
+
+#alchemy:hover #experience {
+    visibility: visible !important;
+}
+
+#blacksmithing:hover #experience {
+    visibility: visible !important;
+}
+
+#enchanting:hover #experience {
+    visibility: visible !important;
+}
+
+#tailoring:hover #experience {
+    visibility: visible !important;
+}
+
+#unarmed:hover #experience {
+    visibility: visible !important;
+}
+#sword:hover #experience {
+    visibility: visible !important;
+}
+#greatsword:hover #experience {
+    visibility: visible !important;
+}
+#axe:hover #experience {
+    visibility: visible !important;
+}
+#mace:hover #experience {
+    visibility: visible !important;
+}
+#pistols:hover #experience {
+    visibility: visible !important;
+}
+#longbow:hover #experience {
+    visibility: visible !important;
+}
+#crossbow:hover #experience {
+    visibility: visible !important;
+}
+#whip:hover #experience {
+    visibility: visible !important;
+}
+#reaper:hover #experience {
+    visibility: visible !important;
+}
+#slashers:hover #experience {
+    visibility: visible !important;
+}
+#fishingpole:hover #experience {
+    visibility: visible !important;
+}
+#spear:hover #experience {
+    visibility: visible !important;
+}
