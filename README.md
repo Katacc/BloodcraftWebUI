@@ -19,6 +19,9 @@ TODO:
 - Custom icons (Not ripped from V Rising assets)
 - Player selector that scales better with more players.
 
+Known bugs:
+- PrimaryAttackSpeed is not calculated in pistols atleast.
+
 ## Screenshots:
 
 ![screenshot without toggle](screenshots/screenshot1.png)

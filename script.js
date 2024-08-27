@@ -375,7 +375,7 @@ function fetchCharacterData(
     const statFormulas = {
       MaxHP: (weaponLevel) => weaponLevel * 2.5,
       MoveSpeed: (weaponLevel) => weaponLevel / 4 / 100,
-      AttSpeed: (weaponLevel) => weaponLevel / 4 / 100,
+      AttSpeed: (weaponLevel) => weaponLevel / 10,
       PhysLeech: (weaponLevel) => weaponLevel / 10,
       SpellLeech: (weaponLevel) => weaponLevel / 10,
       PrimaryLeech: (weaponLevel) => weaponLevel / 10,
@@ -404,6 +404,8 @@ function fetchCharacterData(
           } else if (statName.includes("Leech")) {
             statValue = statValue.toFixed(0);
             //statValue = Math.floor(statValue);
+          } else if (statName.includes("Att")) {
+            statValue = statValue.toFixed(0);
           } else {
             statValue = Math.floor(statValue);
           }
